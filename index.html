@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fine Diners</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <img src="images/logo.png" alt="Hotel Logo" class="logo">
+    <div class="hotel-info">
+      <h1>Fine Dinners</h1>
+      <p>Location: Bharatpur, Nepal</p>
+    </div>
+  </header>
+
+  <!-- Image Carousel Section -->
+  <section class="carousel">
+    <div class="slider">
+      <img src="images/img1.jpg" alt="Hotel View">
+      <img src="images/img2.svg" alt="Room">
+      <img src="images/img3.svg" alt="Restaurant">
+      <img src="images/img4.jpg" alt="Hotel View">
+      <img src="images/img5.jpg" alt="Room">
+     <img src="images/img6.jpg" alt="Room">
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section">
+    <div class="menu-categories">
+      <button onclick="filterMenu('breakfast')">Breakfast</button>
+      <button onclick="filterMenu('lunch')">Lunch</button>
+      <button onclick="filterMenu('dinner')">Dinner</button>
+    </div>
+    <div class="menu-images" id="menuImages">
+      <img src="images/breakfast1.png" class="menu-img breakfast">
+      <img src="images/lunch1.png" class="menu-img lunch">
+      <img src="images/dinner1.png" class="menu-img dinner">
+      <img src="images/breakfast2.png" class="menu-img breakfast">
+      <img src="images/lunch2.png" class="menu-img lunch">
+      <img src="images/dinner2.png" class="menu-img dinner">
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <video controls width="100%">
+      <source src="promo.mp4" type="video/mp4">
+ 
+    </video>
+  </section>
+
+  <!-- Special Dishes Section -->
+<section class="special-dishes">
+    <h2>Our Special Dishes</h2>
+    <div class="dish-cards">
+      <div class="card">
+        <img src="images/dish1.jpeg" alt="Dish 1">
+        <h3>EGG BENEDICT</h3>
+        <p>Rs.720</p>
+      </div>
+      <div class="card">
+        <img src="images/dish2.jpeg" alt="Dish 2">
+        <h3>FINE DINNERS BREAKFAST</h3>
+        <p>Rs. 890</p>
+      </div>
+      <div class="card">
+        <img src="images/dish3.jpeg" alt="Dish 3">
+        <h3>TEQUILA SUNRISE</h3>
+        <p>Rs.820</p>
+      </div>
+      <div class="card">
+        <img src="images/dish4.jpeg" alt="Dish 4">
+        <h3>PALOMA</h3>
+        <p>Rs.840</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/p/Fine-Diners-100063082697397/" target="_blank"><img src="images/fb.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/fine_diners_cafe/?hl=en" target="_blank"><img src="images/insta.png" alt="Instagram"></a>
+      <a href="https://www.google.com/search?sca_esv=49225e46aba5b69e&sxsrf=AE3TifOO_uvir34vweNxj2tXbP2f7jaDVQ:1748700050419&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E_ocdsUYHIAHgi2ag0W1QsUlLRRRfk5tEXLx4emPTUabS1cWlvQzwElmnbUf4gCPp-uRyCOCSkMr1Gccq9UmckD97Qy7&q=Fine+Diners+Reviews&sa=X&ved=2ahUKEwjHtMuq782NAxU_T2wGHQMIE-sQ0bkNegQIIBAD&cshid=1748700072141935&biw=1366&bih=591&dpr=1#lrd=0x3994fbedbfa092e3:0x24b1d344964938ca,3,,,," target="_blank"><img src="images/google-review.png" alt="Google Rating"></a>
+    </div>
+    <div class="map">
+      <iframe src="https://maps.google.com/maps?q=27.69007294175928,84.43613059990588&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
